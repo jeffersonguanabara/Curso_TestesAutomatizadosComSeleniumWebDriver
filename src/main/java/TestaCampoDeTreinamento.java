@@ -69,11 +69,48 @@ public class TestaCampoDeTreinamento {
         driver.manage().window().maximize();
         driver.get(url);
         WebElement element = driver.findElement(By.id("elementosForm:escolaridade"));
+        Select selectEscolaridade = new Select(element);
+        selectEscolaridade.selectByValue("superior");
+        Assert.assertEquals("Superior", selectEscolaridade.getFirstSelectedOption().getText());
+        driver.quit();
+    }
 
+    @Test
+    public void testeValidarTamanhoSelectEscolaridade() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        WebElement element = driver.findElement(By.id("elementosForm:escolaridade"));
         Select selectEscolaridade = new Select(element);
         List<WebElement> options = selectEscolaridade.getOptions();
-        // continuar amanhã
+        Assert.assertEquals(8, options.size());
+        driver.quit();
+    }
 
+    @Test
+    public void testeMultipleSelectEsportes() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        WebElement element = driver.findElement(By.id("elementosForm:esportes"));
+        Select multipleSelectEspostes = new Select(element);
+        multipleSelectEspostes.selectByValue("natacao");
+        multipleSelectEspostes.selectByValue("futebol");
+        multipleSelectEspostes.selectByValue("Karate");
+
+        List<WebElement> options = multipleSelectEspostes.getAllSelectedOptions();
+        boolean validador = false;
+        for (WebElement option : options) {
+            if ((option.getText().equals("Natação")) || (option.getText().equals("Futebol")) || (option.getText().equals("Karate"))) {
+                validador = true;
+            }
+        }
+
+        Assert.assertEquals(true, validador);
+
+        driver.quit();
     }
 
     @Test
@@ -87,4 +124,28 @@ public class TestaCampoDeTreinamento {
 
         driver.quit();
     }
+
+    @Test
+    public void testeButtonCliqueMe() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        WebElement element = driver.findElement(By.id("buttonSimple"));
+        element.click();
+        Assert.assertEquals("Obrigado!", element.getAttribute("value"));
+        driver.quit();
+    }
+
+    @Test
+    public void testeLinkVoltar() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+        driver.findElement(By.linkText("Voltar")).click();
+        Assert.assertEquals("Voltou!", driver.findElement(By.id("resultado")).getText());
+        driver.quit();
+    }
+
 }
