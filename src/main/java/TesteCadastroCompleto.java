@@ -61,5 +61,7 @@ public class TesteCadastroCompleto {
         Assert.assertEquals("Futebol", driver.findElement(By.xpath("//*[@id=\"descEsportes\"]/span")).getText());
         Assert.assertEquals("teste", driver.findElement(By.xpath("//*[@id=\"descSugestoes\"]/span")).getText());
 
+        driver.quit();
+
     }
 }
