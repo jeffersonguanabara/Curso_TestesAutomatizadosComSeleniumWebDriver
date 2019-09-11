@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f016eede-c17d-46bb-9a9a-9acf62e1f305" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TesteCadastroCompleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TesteCadastroCompleto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,24 +18,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestaAlerts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="64" column="69" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
+            <state relative-caret-position="363">
+              <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,6 +53,7 @@
         <option value="$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java" />
         <option value="$PROJECT_DIR$/src/main/java/TesteFrames.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" />
       </list>
     </option>
   </component>
@@ -87,7 +74,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +126,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,37 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestaFramesEJanelas.testaJanelaPopUpSemTitulo">
-    <configuration name="TestaAlerts.testaAlertPrompt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesAutomatizadosComSeleniumWebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaAlerts" />
-      <option name="METHOD_NAME" value="testaAlertPrompt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaFramesEJanelas.testaFrameOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesAutomatizadosComSeleniumWebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaFramesEJanelas" />
-      <option name="METHOD_NAME" value="testaFrameOk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaFramesEJanelas.testaJanelaPopUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesAutomatizadosComSeleniumWebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaFramesEJanelas" />
-      <option name="METHOD_NAME" value="testaJanelaPopUp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestaRegraDeNegocio.testavalidacaoCampoEsportes">
     <configuration name="TestaFramesEJanelas.testaJanelaPopUpSemTitulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -208,11 +165,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCadastroCompleto.testeCadastro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaRegraDeNegocio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TesteCadastroCompleto" />
-      <option name="METHOD_NAME" value="testeCadastro" />
+      <option name="MAIN_CLASS_NAME" value="TestaRegraDeNegocio" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesAutomatizadosComSeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaRegraDeNegocio" />
+      <option name="METHOD_NAME" value="testaValidacaoCampoComida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaRegraDeNegocio.testaValidacaoCampoNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesAutomatizadosComSeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaRegraDeNegocio" />
+      <option name="METHOD_NAME" value="testaValidacaoCampoNome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaRegraDeNegocio.testavalidacaoCampoEsportes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesAutomatizadosComSeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestaRegraDeNegocio" />
+      <option name="METHOD_NAME" value="testavalidacaoCampoEsportes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestaRegraDeNegocio.testavalidacaoCampoEsportes" />
+        <item itemvalue="JUnit.TestaRegraDeNegocio.testaValidacaoCampoComida" />
+        <item itemvalue="JUnit.TestaRegraDeNegocio" />
+        <item itemvalue="JUnit.TestaRegraDeNegocio.testaValidacaoCampoNome" />
         <item itemvalue="JUnit.TestaFramesEJanelas.testaJanelaPopUpSemTitulo" />
-        <item itemvalue="JUnit.TestaFramesEJanelas.testaJanelaPopUp" />
-        <item itemvalue="JUnit.TestaFramesEJanelas.testaFrameOk" />
-        <item itemvalue="JUnit.TesteCadastroCompleto.testeCadastro" />
-        <item itemvalue="JUnit.TestaAlerts.testaAlertPrompt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,42 +228,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteCadastroCompleto_testeCadastro - 2019.09.09 at 15h 21m 25s.xml">
-      <configuration name="TesteCadastroCompleto.testeCadastro" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio - 2019.09.11 at 14h 58m 32s.xml">
+      <configuration name="TestaRegraDeNegocio" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteCadastroCompleto_testeCadastro - 2019.09.09 at 15h 22m 49s.xml">
-      <configuration name="TesteCadastroCompleto.testeCadastro" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio - 2019.09.11 at 14h 59m 08s.xml">
+      <configuration name="TestaRegraDeNegocio" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteCadastroCompleto_testeCadastro - 2019.09.09 at 15h 24m 23s.xml">
-      <configuration name="TesteCadastroCompleto.testeCadastro" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio - 2019.09.11 at 15h 01m 22s.xml">
+      <configuration name="TestaRegraDeNegocio" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteFrames_testaFrameOk - 2019.09.10 at 14h 43m 42s.xml">
-      <configuration name="TesteFrames.testaFrameOk" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 21m 57s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteFrames_testaFrameOk - 2019.09.10 at 14h 45m 22s.xml">
-      <configuration name="TesteFrames.testaFrameOk" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 23m 42s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteFrames_testaFrameOk - 2019.09.10 at 14h 49m 57s.xml">
-      <configuration name="TesteFrames.testaFrameOk" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 27m 23s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteFrames_testaFrameOk - 2019.09.10 at 14h 55m 29s.xml">
-      <configuration name="TesteFrames.testaFrameOk" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 35m 12s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteFrames_testaFrameOk - 2019.09.10 at 14h 57m 31s.xml">
-      <configuration name="TesteFrames.testaFrameOk" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 36m 47s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaFramesEJanelas_testaJanelaPopUp - 2019.09.10 at 15h 08m 28s.xml">
-      <configuration name="TestaFramesEJanelas.testaJanelaPopUp" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 38m 11s.xml">
+      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaFramesEJanelas_testaJanelaPopUpSemTitulo - 2019.09.10 at 15h 18m 30s.xml">
-      <configuration name="TestaFramesEJanelas.testaJanelaPopUpSemTitulo" configurationId="JUnit" />
+    <history-entry file="TestaRegraDeNegocio_testavalidacaoCampoEsportes - 2019.09.11 at 15h 53m 30s.xml">
+      <configuration name="TestaRegraDeNegocio.testavalidacaoCampoEsportes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1286" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17098865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1758509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -287,13 +273,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1877193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22280702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14035088" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17017543" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32807016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -337,10 +323,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -357,10 +353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="64" column="69" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
+        <state relative-caret-position="363">
+          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

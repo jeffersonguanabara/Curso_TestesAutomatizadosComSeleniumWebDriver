@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class TesteCadastroCompleto {
+public class TestaCadastroCompleto {
 
     static String propertyWebDriver;
     static String driverBrowser;
@@ -14,7 +14,7 @@ public class TesteCadastroCompleto {
     //static WebDriver driver;
 
 
-    public TesteCadastroCompleto() {
+    public TestaCadastroCompleto() {
         propertyWebDriver = "webdriver.gecko.driver";
         driverBrowser = "src/main/resources/arquivos/geckodriver";
         url = String.format("file:///%s/src/main/resources/paginas/componentes.html", System.getProperty("user.dir"));
