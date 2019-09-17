@@ -1,4 +1,6 @@
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -10,13 +12,18 @@ public class TestaAlerts {
     static String url = String.format("file:///%s/src/main/resources/paginas/componentes.html", System.getProperty("user.dir"));
     static String propertyWebDriver = "webdriver.gecko.driver";
     static String driverBrowser = "src/main/resources/arquivos/geckodriver";
+    private WebDriver driver;
+
+    @Before
+    public void inicializando() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
+    }
 
     @Test
     public void testaAlertSimples() {
-        System.setProperty(propertyWebDriver, driverBrowser);
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.get(url);
 
         driver.findElement(By.id("alert")).click();
         Alert alertSimples = driver.switchTo().alert();
@@ -26,10 +33,6 @@ public class TestaAlerts {
 
     @Test
     public void testaAlertConfirm() {
-        System.setProperty(propertyWebDriver, driverBrowser);
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.get(url);
 
         driver.findElement(By.id("confirm")).click();
         Alert alertConfirm = driver.switchTo().alert();
@@ -41,15 +44,11 @@ public class TestaAlerts {
         alertConfirm.dismiss();
         Assert.assertEquals("Negado", alertConfirm.getText());
         alertConfirm.accept();
-        driver.quit();
+
     }
 
     @Test
     public void testaAlertPrompt() {
-        System.setProperty(propertyWebDriver, driverBrowser);
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.get(url);
 
         driver.findElement(By.id("prompt")).click();
         Alert alertPrompt = driver.switchTo().alert();
@@ -60,6 +59,10 @@ public class TestaAlerts {
         Assert.assertEquals(":D", alertPrompt.getText());
         alertPrompt.accept();
 
+    }
+
+    @After
+    public void finalizando() {
         driver.quit();
     }
 }

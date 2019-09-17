@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
@@ -6,8 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class TestaRegraDeNegocio {
 
@@ -33,8 +32,7 @@ public class TestaRegraDeNegocio {
         Assert.assertEquals("Nome eh obrigatorio", alert.getText());
         // clicando no botao ok do alert
         alert.accept();
-        // fechando o browser
-        driver.quit();
+
     }
 
     @Test
@@ -49,8 +47,7 @@ public class TestaRegraDeNegocio {
         Assert.assertEquals("Sobrenome eh obrigatorio", alert.getText());
         // clicando no botao ok do alert
         alert.accept();
-        // fechando o browser
-        driver.quit();
+
     }
 
     @Test
@@ -82,8 +79,6 @@ public class TestaRegraDeNegocio {
             driver.findElement(By.id(String.format("elementosForm:comidaFavorita:%s", i))).click();
             driver.findElement(By.id("elementosForm:comidaFavorita:3")).click();
         }
-        // fechando o browser
-        driver.quit();
     }
 
     @Test
@@ -115,7 +110,11 @@ public class TestaRegraDeNegocio {
         // fechando o alert e voltando ao contexto da pagina padrao
         alert.accept();
 
-        // fechando o browser
+
+    }
+
+    @After
+    public void finalizando() {
         driver.quit();
     }
 

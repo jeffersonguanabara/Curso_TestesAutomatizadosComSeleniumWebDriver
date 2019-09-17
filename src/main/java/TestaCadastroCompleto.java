@@ -1,4 +1,6 @@
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,22 +13,25 @@ public class TestaCadastroCompleto {
     static String propertyWebDriver;
     static String driverBrowser;
     static String url;
-    //static WebDriver driver;
+    private WebDriver driver;
 
 
     public TestaCadastroCompleto() {
         propertyWebDriver = "webdriver.gecko.driver";
         driverBrowser = "src/main/resources/arquivos/geckodriver";
         url = String.format("file:///%s/src/main/resources/paginas/componentes.html", System.getProperty("user.dir"));
-        //driver = new FirefoxDriver();
+    }
+
+    @Before
+    public void inicializando() {
+        System.setProperty(propertyWebDriver, driverBrowser);
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get(url);
     }
 
     @Test
     public void testeCadastro() {
-        System.setProperty(propertyWebDriver, driverBrowser);
-        WebDriver driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.get(url);
 
         // preenchendo o nome
         driver.findElement(By.id("elementosForm:nome")).sendKeys("Paulo");
@@ -61,7 +66,10 @@ public class TestaCadastroCompleto {
         Assert.assertEquals("Futebol", driver.findElement(By.xpath("//*[@id=\"descEsportes\"]/span")).getText());
         Assert.assertEquals("teste", driver.findElement(By.xpath("//*[@id=\"descSugestoes\"]/span")).getText());
 
-        driver.quit();
+    }
 
+    @After
+    public void finalizando() {
+        driver.quit();
     }
 }
