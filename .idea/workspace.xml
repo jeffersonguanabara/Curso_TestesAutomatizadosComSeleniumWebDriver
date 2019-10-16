@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f016eede-c17d-46bb-9a9a-9acf62e1f305" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestaAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaAlerts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestaGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaGoogle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestaAlerts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestaAlerts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestaCampoDeTreinamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestaCampoDeTreinamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestaRegraDeNegocio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestaRegraDeNegocio.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,16 +23,42 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DSL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="193">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3273#3274#0" expanded="true" />
-                <element signature="e#3290#3291#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="e#1770#1771#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#2015#2016#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,14 +80,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/TestaAlerts.java" />
         <option value="$PROJECT_DIR$/src/main/java/TesteCadastroCompleto.java" />
         <option value="$PROJECT_DIR$/src/main/java/TesteFrames.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestaGoogle.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestaAlerts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DSL.java" />
       </list>
     </option>
   </component>
@@ -71,16 +100,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1060" />
-    <option name="height" value="340" />
+    <option name="width" value="738" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,59 +173,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestaAlerts">
-    <configuration name="TestaAlerts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestaCampoDeTreinamento.testeMultipleSelectEsportes">
+    <configuration name="TestaCampoDeTreinamento.testeButtonCliqueMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaAlerts" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestaCampoDeTreinamento" />
+      <option name="METHOD_NAME" value="testeButtonCliqueMe" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaCadastroCompleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaCampoDeTreinamento.testeLinkVoltar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaCadastroCompleto" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestaCampoDeTreinamento" />
+      <option name="METHOD_NAME" value="testeLinkVoltar" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaFramesEJanelas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaCampoDeTreinamento.testeMultipleSelectEsportes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaFramesEJanelas" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestaCampoDeTreinamento" />
+      <option name="METHOD_NAME" value="testeMultipleSelectEsportes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaCampoDeTreinamento.testeTextAreaSugestoes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaGoogle" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestaCampoDeTreinamento" />
+      <option name="METHOD_NAME" value="testeTextAreaSugestoes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaRegraDeNegocio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaCampoDeTreinamento.testeValidarTamanhoSelectEscolaridade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesAutomatizadosComSeleniumWebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestaRegraDeNegocio" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestaCampoDeTreinamento" />
+      <option name="METHOD_NAME" value="testeValidarTamanhoSelectEscolaridade" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestaAlerts" />
-        <item itemvalue="JUnit.TestaCadastroCompleto" />
-        <item itemvalue="JUnit.TestaFramesEJanelas" />
-        <item itemvalue="JUnit.TestaGoogle" />
-        <item itemvalue="JUnit.TestaRegraDeNegocio" />
+        <item itemvalue="JUnit.TestaCampoDeTreinamento.testeMultipleSelectEsportes" />
+        <item itemvalue="JUnit.TestaCampoDeTreinamento.testeLinkVoltar" />
+        <item itemvalue="JUnit.TestaCampoDeTreinamento.testeButtonCliqueMe" />
+        <item itemvalue="JUnit.TestaCampoDeTreinamento.testeTextAreaSugestoes" />
+        <item itemvalue="JUnit.TestaCampoDeTreinamento.testeValidarTamanhoSelectEscolaridade" />
       </list>
     </recent_temporary>
   </component>
@@ -214,42 +248,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 35m 12s.xml">
-      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeCheckBoxComidas - 2019.10.16 at 15h 15m 52s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeCheckBoxComidas" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 36m 47s.xml">
-      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeRadioButtonSexo - 2019.10.16 at 15h 42m 43s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeRadioButtonSexo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio_testaValidacaoCampoComida - 2019.09.11 at 15h 38m 11s.xml">
-      <configuration name="TestaRegraDeNegocio.testaValidacaoCampoComida" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeSelectEscolaridade - 2019.10.16 at 15h 44m 01s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeSelectEscolaridade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio_testavalidacaoCampoEsportes - 2019.09.11 at 15h 53m 30s.xml">
-      <configuration name="TestaRegraDeNegocio.testavalidacaoCampoEsportes" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeValidarTamanhoSelectEscolaridade - 2019.10.16 at 15h 52m 46s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeValidarTamanhoSelectEscolaridade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio_testavalidacaoCampoEsportes - 2019.09.11 at 16h 00m 31s.xml">
-      <configuration name="TestaRegraDeNegocio.testavalidacaoCampoEsportes" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeTextAreaSugestoes - 2019.10.16 at 15h 59m 52s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeTextAreaSugestoes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio - 2019.09.11 at 16h 13m 17s.xml">
-      <configuration name="TestaRegraDeNegocio" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeTextAreaSugestoes - 2019.10.16 at 16h 08m 32s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeTextAreaSugestoes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaCampoDeTreinamento - 2019.09.17 at 16h 23m 19s.xml">
-      <configuration name="TestaCampoDeTreinamento" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeButtonCliqueMe - 2019.10.16 at 16h 09m 15s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeButtonCliqueMe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaRegraDeNegocio - 2019.09.17 at 16h 26m 50s.xml">
-      <configuration name="TestaRegraDeNegocio" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeLinkVoltar - 2019.10.16 at 16h 13m 29s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeLinkVoltar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaGoogle - 2019.09.17 at 16h 35m 27s.xml">
-      <configuration name="TestaGoogle" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeLinkVoltar - 2019.10.16 at 16h 29m 50s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeLinkVoltar" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaFramesEJanelas - 2019.09.17 at 16h 38m 48s.xml">
-      <configuration name="TestaFramesEJanelas" configurationId="JUnit" />
+    <history-entry file="TestaCampoDeTreinamento_testeMultipleSelectEsportes - 2019.10.16 at 16h 46m 27s.xml">
+      <configuration name="TestaCampoDeTreinamento.testeMultipleSelectEsportes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1286" height="697" extended-state="6" />
+    <frame x="0" y="-1" width="1280" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17909238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23344104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -259,15 +293,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22280702" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4695652" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23333333" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23304348" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32807016" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3252174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -289,10 +323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestaAlerts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -301,62 +335,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestaGoogle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="281">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestaRegraDeNegocio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4970#4971#0" expanded="true" />
-            <element signature="e#4999#5000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5749#5750#0" expanded="true" />
-            <element signature="e#5778#5779#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestaFramesEJanelas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="-463">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaAlerts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestaCadastroCompleto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="220">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3273#3274#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestaCampoDeTreinamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

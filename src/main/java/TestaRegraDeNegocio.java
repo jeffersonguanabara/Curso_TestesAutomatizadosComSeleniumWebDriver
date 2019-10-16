@@ -1,5 +1,6 @@
 import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -15,7 +16,8 @@ public class TestaRegraDeNegocio {
     static String url = String.format("file:///%s/src/main/resources/paginas/componentes.html", System.getProperty("user.dir"));
     WebDriver driver = null;
 
-    public TestaRegraDeNegocio() {
+    @Before
+    public void inicializando() {
         System.setProperty(propertyDriver, driverBrowser);
         driver = new FirefoxDriver();
         driver.manage().window().maximize();

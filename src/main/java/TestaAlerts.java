@@ -24,7 +24,6 @@ public class TestaAlerts {
 
     @Test
     public void testaAlertSimples() {
-
         driver.findElement(By.id("alert")).click();
         Alert alertSimples = driver.switchTo().alert();
         Assert.assertEquals("Alert Simples", alertSimples.getText());
@@ -33,7 +32,6 @@ public class TestaAlerts {
 
     @Test
     public void testaAlertConfirm() {
-
         driver.findElement(By.id("confirm")).click();
         Alert alertConfirm = driver.switchTo().alert();
         alertConfirm.accept();
@@ -49,7 +47,6 @@ public class TestaAlerts {
 
     @Test
     public void testaAlertPrompt() {
-
         driver.findElement(By.id("prompt")).click();
         Alert alertPrompt = driver.switchTo().alert();
         alertPrompt.sendKeys("12");
